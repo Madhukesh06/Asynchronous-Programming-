@@ -1,0 +1,40 @@
+body{
+    background-color: antiquewhite;
+}
+
+#navbar{
+    background-color: teal;
+    width: 80rem;
+    margin: auto;
+    display: flex;
+    justify-content: right;
+    padding: 0.5rem;
+    border: 0.1rem solid teal;
+}
+#navbar>div{
+    margin-left: 4rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+a{
+    font-style: none;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgba(16, 19, 245, 0.973);
+}
+
+#slideshow{
+    width: 60rem;
+    margin: auto;
+    margin-top: 1rem;
+    /* border: 1rem solid red; */
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0.6rem;
+}
+img{
+    width: 100%;
+    height: 25rem;
+}
